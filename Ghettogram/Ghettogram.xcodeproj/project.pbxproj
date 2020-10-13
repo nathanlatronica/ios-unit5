@@ -1,0 +1,761 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		10AEAD2661BD79B9C6948A40 /* Pods_Ghettogram_GhettogramUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51D171271245166EB8769D02 /* Pods_Ghettogram_GhettogramUITests.framework */; };
+		11A9EBB025351AC80098DD0F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A9EBAF25351AC80098DD0F /* AppDelegate.swift */; };
+		11A9EBB225351AC80098DD0F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A9EBB125351AC80098DD0F /* SceneDelegate.swift */; };
+		11A9EBB725351AC80098DD0F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11A9EBB525351AC80098DD0F /* Main.storyboard */; };
+		11A9EBB925351ACC0098DD0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11A9EBB825351ACC0098DD0F /* Assets.xcassets */; };
+		11A9EBBC25351ACC0098DD0F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11A9EBBA25351ACC0098DD0F /* LaunchScreen.storyboard */; };
+		11A9EBC725351ACC0098DD0F /* GhettogramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A9EBC625351ACC0098DD0F /* GhettogramTests.swift */; };
+		11A9EBD225351ACC0098DD0F /* GhettogramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A9EBD125351ACC0098DD0F /* GhettogramUITests.swift */; };
+		11A9EBE025351BB70098DD0F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A9EBDF25351BB70098DD0F /* LoginViewController.swift */; };
+		11A9EBE225351BCB0098DD0F /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A9EBE125351BCB0098DD0F /* FeedViewController.swift */; };
+		11A9EBE4253553AA0098DD0F /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A9EBE3253553AA0098DD0F /* CameraViewController.swift */; };
+		11A9EBE62535600B0098DD0F /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A9EBE52535600B0098DD0F /* PostCell.swift */; };
+		DDDCF756B774CE54D7E0F3D3 /* Pods_Ghettogram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CEE364D44D1E8A1578529C4 /* Pods_Ghettogram.framework */; };
+		FFA33FC95E2BEDEE2C49CF5D /* Pods_GhettogramTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 861D75C441A60AA037727052 /* Pods_GhettogramTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		11A9EBC325351ACC0098DD0F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 11A9EBA425351AC80098DD0F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 11A9EBAB25351AC80098DD0F;
+			remoteInfo = Ghettogram;
+		};
+		11A9EBCE25351ACC0098DD0F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 11A9EBA425351AC80098DD0F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 11A9EBAB25351AC80098DD0F;
+			remoteInfo = Ghettogram;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		077368D346120C5D4D6CFF40 /* Pods-Ghettogram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ghettogram.release.xcconfig"; path = "Target Support Files/Pods-Ghettogram/Pods-Ghettogram.release.xcconfig"; sourceTree = "<group>"; };
+		11A9EBAC25351AC80098DD0F /* Ghettogram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ghettogram.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		11A9EBAF25351AC80098DD0F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		11A9EBB125351AC80098DD0F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		11A9EBB625351AC80098DD0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		11A9EBB825351ACC0098DD0F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		11A9EBBB25351ACC0098DD0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		11A9EBBD25351ACC0098DD0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11A9EBC225351ACC0098DD0F /* GhettogramTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GhettogramTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		11A9EBC625351ACC0098DD0F /* GhettogramTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GhettogramTests.swift; sourceTree = "<group>"; };
+		11A9EBC825351ACC0098DD0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11A9EBCD25351ACC0098DD0F /* GhettogramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GhettogramUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		11A9EBD125351ACC0098DD0F /* GhettogramUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GhettogramUITests.swift; sourceTree = "<group>"; };
+		11A9EBD325351ACC0098DD0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11A9EBDF25351BB70098DD0F /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		11A9EBE125351BCB0098DD0F /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		11A9EBE3253553AA0098DD0F /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		11A9EBE52535600B0098DD0F /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		3CEE364D44D1E8A1578529C4 /* Pods_Ghettogram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ghettogram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CFB6299BC44910DBBAA2832 /* Pods-GhettogramTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GhettogramTests.debug.xcconfig"; path = "Target Support Files/Pods-GhettogramTests/Pods-GhettogramTests.debug.xcconfig"; sourceTree = "<group>"; };
+		51D171271245166EB8769D02 /* Pods_Ghettogram_GhettogramUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ghettogram_GhettogramUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		861D75C441A60AA037727052 /* Pods_GhettogramTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GhettogramTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9D9D24AF118F627F4E46FCA /* Pods-GhettogramTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GhettogramTests.release.xcconfig"; path = "Target Support Files/Pods-GhettogramTests/Pods-GhettogramTests.release.xcconfig"; sourceTree = "<group>"; };
+		D2BB369235C19041E03E3BC8 /* Pods-Ghettogram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ghettogram.debug.xcconfig"; path = "Target Support Files/Pods-Ghettogram/Pods-Ghettogram.debug.xcconfig"; sourceTree = "<group>"; };
+		D4941002593B9014831B71E0 /* Pods-Ghettogram-GhettogramUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ghettogram-GhettogramUITests.release.xcconfig"; path = "Target Support Files/Pods-Ghettogram-GhettogramUITests/Pods-Ghettogram-GhettogramUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E588EB5152C66FA8594CFC07 /* Pods-Ghettogram-GhettogramUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ghettogram-GhettogramUITests.debug.xcconfig"; path = "Target Support Files/Pods-Ghettogram-GhettogramUITests/Pods-Ghettogram-GhettogramUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		11A9EBA925351AC80098DD0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDDCF756B774CE54D7E0F3D3 /* Pods_Ghettogram.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11A9EBBF25351ACC0098DD0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFA33FC95E2BEDEE2C49CF5D /* Pods_GhettogramTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11A9EBCA25351ACC0098DD0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10AEAD2661BD79B9C6948A40 /* Pods_Ghettogram_GhettogramUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11A9EBA325351AC80098DD0F = {
+			isa = PBXGroup;
+			children = (
+				11A9EBAE25351AC80098DD0F /* Ghettogram */,
+				11A9EBC525351ACC0098DD0F /* GhettogramTests */,
+				11A9EBD025351ACC0098DD0F /* GhettogramUITests */,
+				11A9EBAD25351AC80098DD0F /* Products */,
+				BDA5523F3AEF6414B1E38EEB /* Pods */,
+				DC84C145B1A2A6ABD6B19342 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		11A9EBAD25351AC80098DD0F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				11A9EBAC25351AC80098DD0F /* Ghettogram.app */,
+				11A9EBC225351ACC0098DD0F /* GhettogramTests.xctest */,
+				11A9EBCD25351ACC0098DD0F /* GhettogramUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		11A9EBAE25351AC80098DD0F /* Ghettogram */ = {
+			isa = PBXGroup;
+			children = (
+				11A9EBAF25351AC80098DD0F /* AppDelegate.swift */,
+				11A9EBB125351AC80098DD0F /* SceneDelegate.swift */,
+				11A9EBB525351AC80098DD0F /* Main.storyboard */,
+				11A9EBDF25351BB70098DD0F /* LoginViewController.swift */,
+				11A9EBE125351BCB0098DD0F /* FeedViewController.swift */,
+				11A9EBB825351ACC0098DD0F /* Assets.xcassets */,
+				11A9EBBA25351ACC0098DD0F /* LaunchScreen.storyboard */,
+				11A9EBBD25351ACC0098DD0F /* Info.plist */,
+				11A9EBE3253553AA0098DD0F /* CameraViewController.swift */,
+				11A9EBE52535600B0098DD0F /* PostCell.swift */,
+			);
+			path = Ghettogram;
+			sourceTree = "<group>";
+		};
+		11A9EBC525351ACC0098DD0F /* GhettogramTests */ = {
+			isa = PBXGroup;
+			children = (
+				11A9EBC625351ACC0098DD0F /* GhettogramTests.swift */,
+				11A9EBC825351ACC0098DD0F /* Info.plist */,
+			);
+			path = GhettogramTests;
+			sourceTree = "<group>";
+		};
+		11A9EBD025351ACC0098DD0F /* GhettogramUITests */ = {
+			isa = PBXGroup;
+			children = (
+				11A9EBD125351ACC0098DD0F /* GhettogramUITests.swift */,
+				11A9EBD325351ACC0098DD0F /* Info.plist */,
+			);
+			path = GhettogramUITests;
+			sourceTree = "<group>";
+		};
+		BDA5523F3AEF6414B1E38EEB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D2BB369235C19041E03E3BC8 /* Pods-Ghettogram.debug.xcconfig */,
+				077368D346120C5D4D6CFF40 /* Pods-Ghettogram.release.xcconfig */,
+				E588EB5152C66FA8594CFC07 /* Pods-Ghettogram-GhettogramUITests.debug.xcconfig */,
+				D4941002593B9014831B71E0 /* Pods-Ghettogram-GhettogramUITests.release.xcconfig */,
+				4CFB6299BC44910DBBAA2832 /* Pods-GhettogramTests.debug.xcconfig */,
+				C9D9D24AF118F627F4E46FCA /* Pods-GhettogramTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DC84C145B1A2A6ABD6B19342 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3CEE364D44D1E8A1578529C4 /* Pods_Ghettogram.framework */,
+				51D171271245166EB8769D02 /* Pods_Ghettogram_GhettogramUITests.framework */,
+				861D75C441A60AA037727052 /* Pods_GhettogramTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		11A9EBAB25351AC80098DD0F /* Ghettogram */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11A9EBD625351ACC0098DD0F /* Build configuration list for PBXNativeTarget "Ghettogram" */;
+			buildPhases = (
+				24C59D818962BD32C3091646 /* [CP] Check Pods Manifest.lock */,
+				11A9EBA825351AC80098DD0F /* Sources */,
+				11A9EBA925351AC80098DD0F /* Frameworks */,
+				11A9EBAA25351AC80098DD0F /* Resources */,
+				577C9DC9A4604746E1D8EE9D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ghettogram;
+			productName = Ghettogram;
+			productReference = 11A9EBAC25351AC80098DD0F /* Ghettogram.app */;
+			productType = "com.apple.product-type.application";
+		};
+		11A9EBC125351ACC0098DD0F /* GhettogramTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11A9EBD925351ACC0098DD0F /* Build configuration list for PBXNativeTarget "GhettogramTests" */;
+			buildPhases = (
+				986438BC1CAF447F42847B05 /* [CP] Check Pods Manifest.lock */,
+				11A9EBBE25351ACC0098DD0F /* Sources */,
+				11A9EBBF25351ACC0098DD0F /* Frameworks */,
+				11A9EBC025351ACC0098DD0F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				11A9EBC425351ACC0098DD0F /* PBXTargetDependency */,
+			);
+			name = GhettogramTests;
+			productName = GhettogramTests;
+			productReference = 11A9EBC225351ACC0098DD0F /* GhettogramTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		11A9EBCC25351ACC0098DD0F /* GhettogramUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11A9EBDC25351ACC0098DD0F /* Build configuration list for PBXNativeTarget "GhettogramUITests" */;
+			buildPhases = (
+				F595541AA5EBA3B863862745 /* [CP] Check Pods Manifest.lock */,
+				11A9EBC925351ACC0098DD0F /* Sources */,
+				11A9EBCA25351ACC0098DD0F /* Frameworks */,
+				11A9EBCB25351ACC0098DD0F /* Resources */,
+				5DE08D4EDA1E42B798E92F93 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				11A9EBCF25351ACC0098DD0F /* PBXTargetDependency */,
+			);
+			name = GhettogramUITests;
+			productName = GhettogramUITests;
+			productReference = 11A9EBCD25351ACC0098DD0F /* GhettogramUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		11A9EBA425351AC80098DD0F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "Nathan Latronica";
+				TargetAttributes = {
+					11A9EBAB25351AC80098DD0F = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					11A9EBC125351ACC0098DD0F = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 11A9EBAB25351AC80098DD0F;
+					};
+					11A9EBCC25351ACC0098DD0F = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 11A9EBAB25351AC80098DD0F;
+					};
+				};
+			};
+			buildConfigurationList = 11A9EBA725351AC80098DD0F /* Build configuration list for PBXProject "Ghettogram" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 11A9EBA325351AC80098DD0F;
+			productRefGroup = 11A9EBAD25351AC80098DD0F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				11A9EBAB25351AC80098DD0F /* Ghettogram */,
+				11A9EBC125351ACC0098DD0F /* GhettogramTests */,
+				11A9EBCC25351ACC0098DD0F /* GhettogramUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		11A9EBAA25351AC80098DD0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11A9EBBC25351ACC0098DD0F /* LaunchScreen.storyboard in Resources */,
+				11A9EBB925351ACC0098DD0F /* Assets.xcassets in Resources */,
+				11A9EBB725351AC80098DD0F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11A9EBC025351ACC0098DD0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11A9EBCB25351ACC0098DD0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		24C59D818962BD32C3091646 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Ghettogram-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		577C9DC9A4604746E1D8EE9D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Ghettogram/Pods-Ghettogram-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Ghettogram/Pods-Ghettogram-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Ghettogram/Pods-Ghettogram-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5DE08D4EDA1E42B798E92F93 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Ghettogram-GhettogramUITests/Pods-Ghettogram-GhettogramUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Ghettogram-GhettogramUITests/Pods-Ghettogram-GhettogramUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Ghettogram-GhettogramUITests/Pods-Ghettogram-GhettogramUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		986438BC1CAF447F42847B05 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GhettogramTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F595541AA5EBA3B863862745 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Ghettogram-GhettogramUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		11A9EBA825351AC80098DD0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11A9EBE025351BB70098DD0F /* LoginViewController.swift in Sources */,
+				11A9EBE4253553AA0098DD0F /* CameraViewController.swift in Sources */,
+				11A9EBB025351AC80098DD0F /* AppDelegate.swift in Sources */,
+				11A9EBE225351BCB0098DD0F /* FeedViewController.swift in Sources */,
+				11A9EBB225351AC80098DD0F /* SceneDelegate.swift in Sources */,
+				11A9EBE62535600B0098DD0F /* PostCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11A9EBBE25351ACC0098DD0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11A9EBC725351ACC0098DD0F /* GhettogramTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11A9EBC925351ACC0098DD0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11A9EBD225351ACC0098DD0F /* GhettogramUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		11A9EBC425351ACC0098DD0F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 11A9EBAB25351AC80098DD0F /* Ghettogram */;
+			targetProxy = 11A9EBC325351ACC0098DD0F /* PBXContainerItemProxy */;
+		};
+		11A9EBCF25351ACC0098DD0F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 11A9EBAB25351AC80098DD0F /* Ghettogram */;
+			targetProxy = 11A9EBCE25351ACC0098DD0F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		11A9EBB525351AC80098DD0F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11A9EBB625351AC80098DD0F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		11A9EBBA25351ACC0098DD0F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11A9EBBB25351ACC0098DD0F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		11A9EBD425351ACC0098DD0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		11A9EBD525351ACC0098DD0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		11A9EBD725351ACC0098DD0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2BB369235C19041E03E3BC8 /* Pods-Ghettogram.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NZHFHMS2X3;
+				INFOPLIST_FILE = Ghettogram/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Nathan-Latronica.Ghettogram";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		11A9EBD825351ACC0098DD0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 077368D346120C5D4D6CFF40 /* Pods-Ghettogram.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NZHFHMS2X3;
+				INFOPLIST_FILE = Ghettogram/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Nathan-Latronica.Ghettogram";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		11A9EBDA25351ACC0098DD0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CFB6299BC44910DBBAA2832 /* Pods-GhettogramTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NZHFHMS2X3;
+				INFOPLIST_FILE = GhettogramTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Nathan-Latronica.GhettogramTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ghettogram.app/Ghettogram";
+			};
+			name = Debug;
+		};
+		11A9EBDB25351ACC0098DD0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9D9D24AF118F627F4E46FCA /* Pods-GhettogramTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NZHFHMS2X3;
+				INFOPLIST_FILE = GhettogramTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Nathan-Latronica.GhettogramTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ghettogram.app/Ghettogram";
+			};
+			name = Release;
+		};
+		11A9EBDD25351ACC0098DD0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E588EB5152C66FA8594CFC07 /* Pods-Ghettogram-GhettogramUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NZHFHMS2X3;
+				INFOPLIST_FILE = GhettogramUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Nathan-Latronica.GhettogramUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Ghettogram;
+			};
+			name = Debug;
+		};
+		11A9EBDE25351ACC0098DD0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4941002593B9014831B71E0 /* Pods-Ghettogram-GhettogramUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NZHFHMS2X3;
+				INFOPLIST_FILE = GhettogramUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Nathan-Latronica.GhettogramUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Ghettogram;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		11A9EBA725351AC80098DD0F /* Build configuration list for PBXProject "Ghettogram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11A9EBD425351ACC0098DD0F /* Debug */,
+				11A9EBD525351ACC0098DD0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11A9EBD625351ACC0098DD0F /* Build configuration list for PBXNativeTarget "Ghettogram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11A9EBD725351ACC0098DD0F /* Debug */,
+				11A9EBD825351ACC0098DD0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11A9EBD925351ACC0098DD0F /* Build configuration list for PBXNativeTarget "GhettogramTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11A9EBDA25351ACC0098DD0F /* Debug */,
+				11A9EBDB25351ACC0098DD0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11A9EBDC25351ACC0098DD0F /* Build configuration list for PBXNativeTarget "GhettogramUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11A9EBDD25351ACC0098DD0F /* Debug */,
+				11A9EBDE25351ACC0098DD0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 11A9EBA425351AC80098DD0F /* Project object */;
+}
