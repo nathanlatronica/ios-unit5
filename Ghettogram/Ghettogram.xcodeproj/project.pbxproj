@@ -19,6 +19,7 @@
 		11A9EBE225351BCB0098DD0F /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A9EBE125351BCB0098DD0F /* FeedViewController.swift */; };
 		11A9EBE4253553AA0098DD0F /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A9EBE3253553AA0098DD0F /* CameraViewController.swift */; };
 		11A9EBE62535600B0098DD0F /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A9EBE52535600B0098DD0F /* PostCell.swift */; };
+		11A9EBE8253E99C70098DD0F /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A9EBE7253E99C70098DD0F /* CommentCell.swift */; };
 		DDDCF756B774CE54D7E0F3D3 /* Pods_Ghettogram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CEE364D44D1E8A1578529C4 /* Pods_Ghettogram.framework */; };
 		FFA33FC95E2BEDEE2C49CF5D /* Pods_GhettogramTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 861D75C441A60AA037727052 /* Pods_GhettogramTests.framework */; };
 /* End PBXBuildFile section */
@@ -59,6 +60,7 @@
 		11A9EBE125351BCB0098DD0F /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		11A9EBE3253553AA0098DD0F /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 		11A9EBE52535600B0098DD0F /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		11A9EBE7253E99C70098DD0F /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
 		3CEE364D44D1E8A1578529C4 /* Pods_Ghettogram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ghettogram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CFB6299BC44910DBBAA2832 /* Pods-GhettogramTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GhettogramTests.debug.xcconfig"; path = "Target Support Files/Pods-GhettogramTests/Pods-GhettogramTests.debug.xcconfig"; sourceTree = "<group>"; };
 		51D171271245166EB8769D02 /* Pods_Ghettogram_GhettogramUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ghettogram_GhettogramUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -125,6 +127,7 @@
 				11A9EBAF25351AC80098DD0F /* AppDelegate.swift */,
 				11A9EBB125351AC80098DD0F /* SceneDelegate.swift */,
 				11A9EBB525351AC80098DD0F /* Main.storyboard */,
+				11A9EBE7253E99C70098DD0F /* CommentCell.swift */,
 				11A9EBDF25351BB70098DD0F /* LoginViewController.swift */,
 				11A9EBE125351BCB0098DD0F /* FeedViewController.swift */,
 				11A9EBB825351ACC0098DD0F /* Assets.xcassets */,
@@ -422,6 +425,7 @@
 				11A9EBE225351BCB0098DD0F /* FeedViewController.swift in Sources */,
 				11A9EBB225351AC80098DD0F /* SceneDelegate.swift in Sources */,
 				11A9EBE62535600B0098DD0F /* PostCell.swift in Sources */,
+				11A9EBE8253E99C70098DD0F /* CommentCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
